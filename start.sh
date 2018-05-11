@@ -1,2 +1,2 @@
 #!/bin/sh
-DEBUG=myapp:* npm start
+DEBUG=home-automation-dashboard:* npm start

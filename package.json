@@ -1,15 +1,14 @@
 {
   "name": "home-automation-dashboard",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "DEBUG=home-automation-dashboard:* node ./bin/app"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
     "debug": "~2.6.3",
     "express": "~4.15.2",
     "morgan": "~1.8.1",
-    "serve-favicon": "~2.4.2"
+    "node-hue-api": "^2.4.2"
   }
 }
